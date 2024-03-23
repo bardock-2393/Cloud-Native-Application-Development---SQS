@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title> My Form </title>
+</head>
+
+<body>
+  <center>
+    <header>
+      <h1> Order Your PIZZA</h1>
+    </header>
+  </center>
+  <form action="/order" method="POST">
+    <fieldset>
+      <h3>Place Order</h3>
+      <label>User Email</label>
+      <input type="text" id='userEmail' name="userEmail" required>
+      <br><br>
+      <label>Name</label>
+      <input type="text" id="itemName" name="itemName" required>
+      <br><br>
+      <label>itemPrice</label>
+      <input type="text" id="itemPrice" name="itemPrice" required>
+      <br><br>
+      <label>itemsQuantity</label>
+      <input type="text" id="itemsQuantity" name="itemsQuantity" required>
+      <br><br>
+      <button type="reset">Reset</button>
+      <button type="submit">Submit</button>
+    </fieldset>
+  </form>
